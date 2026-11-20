@@ -1,0 +1,489 @@
+{
+ "titulo": "Ciência de Dados com R",
+ "subtitulo": "Introdução",
+ "autor": "Paulo Felipe de Oliveira, Saulo Guerra e Robert McDonnell",
+ "repo": "estudos-ciencia-de-dados-com-r",
+ "linguagem": "r",
+ "paginas": 198,
+ "preparacao": "options(repr.plot.width = 7, repr.plot.height = 4.5, dplyr.summarise.inform = FALSE)\nsuppressPackageStartupMessages({ library(dplyr); library(tidyr); library(readr); library(ggplot2); library(stringr) })\ncat(\"Pronto.\", R.version.string, \"\n\")",
+ "capitulos": {
+  "1": {
+   "titulo": "Introdução",
+   "pag": 8,
+   "secoes": [
+    [
+     2,
+     "O que é Ciência de Dados?",
+     8
+    ],
+    [
+     2,
+     "Workflow da Ciência de Dados",
+     8
+    ],
+    [
+     2,
+     "Linguagens para Ciência de dados",
+     9
+    ],
+    [
+     2,
+     "O que é R e por que devo aprendê-lo?",
+     9
+    ],
+    [
+     2,
+     "RStudio",
+     9
+    ],
+    [
+     2,
+     "Buscando Ajuda",
+     11
+    ],
+    [
+     2,
+     "Exercícios",
+     11
+    ]
+   ]
+  },
+  "2": {
+   "titulo": "Conceitos Básicos",
+   "pag": 12,
+   "secoes": [
+    [
+     2,
+     "Console",
+     12
+    ],
+    [
+     2,
+     "Scripts",
+     12
+    ],
+    [
+     2,
+     "Objetos (Variáveis)",
+     14
+    ],
+    [
+     2,
+     "Funções",
+     14
+    ],
+    [
+     2,
+     "Pacotes",
+     15
+    ],
+    [
+     2,
+     "Boas práticas",
+     16
+    ],
+    [
+     2,
+     "Tidyverse",
+     16
+    ],
+    [
+     2,
+     "Exercícios",
+     16
+    ]
+   ]
+  },
+  "3": {
+   "titulo": "Lendo os dados",
+   "pag": 18,
+   "secoes": [
+    [
+     2,
+     "Tipos de Estrutura dos Dados",
+     18
+    ],
+    [
+     2,
+     "Definindo o Local dos Dados",
+     19
+    ],
+    [
+     2,
+     "Pacote para leitura dos dados",
+     19
+    ],
+    [
+     2,
+     "Exercícios",
+     22
+    ]
+   ]
+  },
+  "4": {
+   "titulo": "Manipulando os dados",
+   "pag": 24,
+   "secoes": [
+    [
+     2,
+     "Tipos de Variáveis e Colunas",
+     24
+    ],
+    [
+     2,
+     "If e Else",
+     31
+    ],
+    [
+     2,
+     "Loops",
+     32
+    ],
+    [
+     2,
+     "Manipulações com R base",
+     35
+    ],
+    [
+     2,
+     "Pacote dplyr",
+     38
+    ],
+    [
+     2,
+     "Exercícios",
+     42
+    ]
+   ]
+  },
+  "5": {
+   "titulo": "Limpando dados",
+   "pag": 44,
+   "secoes": [
+    [
+     2,
+     "O formato ideal dos dados",
+     44
+    ],
+    [
+     2,
+     "Pacote tidyr",
+     47
+    ],
+    [
+     2,
+     "Manipulação de texto",
+     50
+    ],
+    [
+     2,
+     "Exercícios",
+     52
+    ]
+   ]
+  },
+  "6": {
+   "titulo": "Juntando dados",
+   "pag": 54,
+   "secoes": [
+    [
+     2,
+     "União de dados (Union)",
+     54
+    ],
+    [
+     2,
+     "Cruzamento de Dados (Join)",
+     54
+    ],
+    [
+     2,
+     "Exercícios",
+     62
+    ]
+   ]
+  },
+  "7": {
+   "titulo": "Escrevendo dados",
+   "pag": 66,
+   "secoes": [
+    [
+     2,
+     "Escrevendo csv",
+     66
+    ],
+    [
+     2,
+     "Rdata",
+     66
+    ],
+    [
+     2,
+     "Escrevendo outros tipos de arquivos",
+     67
+    ],
+    [
+     2,
+     "Exercícios",
+     67
+    ]
+   ]
+  },
+  "8": {
+   "titulo": "Obtendo dados",
+   "pag": 68,
+   "secoes": [
+    [
+     2,
+     "API",
+     68
+    ],
+    [
+     2,
+     "Web Scrapping",
+     70
+    ],
+    [
+     2,
+     "Exercícios",
+     70
+    ]
+   ]
+  },
+  "9": {
+   "titulo": "Visualizações de dados (ggplot2)",
+   "pag": 72,
+   "secoes": [
+    [
+     2,
+     "Mapeamento Estético",
+     75
+    ],
+    [
+     2,
+     "Objetos geométricos",
+     76
+    ],
+    [
+     2,
+     "Escalas",
+     77
+    ],
+    [
+     2,
+     "Subplots (facet)",
+     91
+    ],
+    [
+     2,
+     "Temas",
+     96
+    ],
+    [
+     2,
+     "Legendas",
+     102
+    ],
+    [
+     2,
+     "Escolhendo o tipo de gráfico",
+     104
+    ],
+    [
+     2,
+     "Gráfico de Dispersão (geom_point())",
+     104
+    ],
+    [
+     2,
+     "Gráficos de Bolhas",
+     110
+    ],
+    [
+     2,
+     "Gráficos de Barras",
+     111
+    ],
+    [
+     2,
+     "Gráficos de linhas",
+     118
+    ],
+    [
+     2,
+     "Histogramas e freqpoly",
+     120
+    ],
+    [
+     2,
+     "Boxplots, jitterplots e violinplots",
+     123
+    ],
+    [
+     2,
+     "Anotações",
+     128
+    ],
+    [
+     2,
+     "Cleveland Dot Plot",
+     130
+    ],
+    [
+     2,
+     "Textos/Rótulos",
+     134
+    ],
+    [
+     2,
+     "Plotando funções",
+     137
+    ],
+    [
+     2,
+     "Mapas",
+     140
+    ],
+    [
+     2,
+     "Salvando Gráficos",
+     146
+    ],
+    [
+     2,
+     "Extensões do ggplot2",
+     147
+    ],
+    [
+     2,
+     "Exercícios",
+     149
+    ]
+   ]
+  },
+  "10": {
+   "titulo": "Visualizações Interativas",
+   "pag": 152,
+   "secoes": [
+    [
+     2,
+     "Introdução",
+     152
+    ],
+    [
+     2,
+     "Plotly",
+     152
+    ],
+    [
+     2,
+     "dygraphs",
+     153
+    ],
+    [
+     2,
+     "Leaflet",
+     157
+    ],
+    [
+     2,
+     "Exercícios",
+     164
+    ]
+   ]
+  },
+  "11": {
+   "titulo": "RMarkdown",
+   "pag": 166,
+   "secoes": [
+    [
+     2,
+     "Usos do RMarkdown",
+     166
+    ],
+    [
+     2,
+     "Estrutura de um RMarkdown",
+     167
+    ],
+    [
+     2,
+     "Renderizando um documento",
+     169
+    ],
+    [
+     2,
+     "Sintaxe",
+     169
+    ],
+    [
+     2,
+     "Opções de Chunk",
+     172
+    ],
+    [
+     2,
+     "Principais Formatos",
+     173
+    ],
+    [
+     2,
+     "Excercícios",
+     176
+    ]
+   ]
+  },
+  "12": {
+   "titulo": "Modelos",
+   "pag": 180,
+   "secoes": [
+    [
+     2,
+     "Modelo Linear",
+     180
+    ],
+    [
+     2,
+     "Exercícios",
+     187
+    ]
+   ]
+  },
+  "13": {
+   "titulo": "Revisão - Titanic",
+   "pag": 188,
+   "secoes": [
+    [
+     2,
+     "Objetivo",
+     188
+    ],
+    [
+     2,
+     "Carregando os Dados",
+     188
+    ],
+    [
+     2,
+     "Manipulando os dados",
+     189
+    ],
+    [
+     2,
+     "Idade",
+     191
+    ],
+    [
+     2,
+     "Visualizações",
+     191
+    ],
+    [
+     2,
+     "Modelo Preditivo",
+     195
+    ]
+   ]
+  }
+ }
+}
